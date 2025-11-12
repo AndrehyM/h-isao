@@ -8,4 +8,4 @@ A simple web app to help kids practice math with a modern UI.
 - Built with HTML, CSS, and JavaScript
 
 ## Demo
-👉 [Live on Vercel](https://calcul-app.vercel.app)
+👉 [Live on Vercel](https://h-isao.vercel.app/))
