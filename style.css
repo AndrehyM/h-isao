@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.message {
+    padding: 5px 25px;
+    color: white;
+    /*background-color: green;*/
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+span {
+    font-size: 100px;
+}
+
+section {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section input[type="submit"] {
+    padding: 10px 65px;
+    border: 0;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+section input[type="submit"]:hover {
+    letter-spacing: 2px;
+}
+
+section .calcul {
+    display: flex;
+}
+
+section .calcul h2 {
+    color: aquamarine;
+    font-size: 50px;
+    margin: 0 20px;
+}
+
+section h3 {
+    color: white;
+    margin: 10px 0;
+}
+
+section input {
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 35px;
+
+}
+
+.score {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: 0;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 25px 0;
+    display: none;
+}
